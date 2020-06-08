@@ -3,8 +3,8 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    console.log('CARS: GETALL')
-    return getAllCars;
+    console.log('CARS: GETALL');
+    res.send(getAllCars);
 });
 
 
