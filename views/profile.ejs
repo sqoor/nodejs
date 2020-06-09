@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= name %> - Tempalte engines</title>
+</head>
+<body>
+    <h1>Profile page</h1>
+    <p>Name: <%= name %></p>
+    <p>Age: <%= age %></p>
+    <p>Job : <%= job %></p>
+
+    <h3>Hobbies</h3>
+    <%  hobbies.forEach(hobby => { %>
+        <li><%= hobby %></li> 
+    <%}) %>
+</body>
+</html>
